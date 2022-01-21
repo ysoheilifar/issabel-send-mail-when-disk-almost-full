@@ -13,11 +13,16 @@ chmod 777 diskfullchecker.sh
 3. Open and edit these parameters on `phpmailer.php` (set an gmail account for issabel to send email)
 ```php
 
-$mail->Username = "your_Gmail_account@gmail.com";     // SMTP username
-$mail->Password = "your_Gmail_password";              // SMTP password
+$mail->Username = "issabel_Gmail_account@gmail.com";     // SMTP username
+$mail->Password = "issabel_Gmail_password";              // SMTP password
 
-$mail->From = "your_Gmail_account@gmail.com";
+$mail->From = "issabel_Gmail_account@gmail.com";         // SMTP username
 
 ```
 
-4. Open 
+4. Open and edit these parameters on `diskfullchecker.sh` (set admin gmail account)
+```bash script
+
+TO=admin_Gmail_account@gmail.com
+
+```
