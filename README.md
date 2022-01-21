@@ -1,2 +1,2 @@
-# issabel-send-mail-when-disk-full
+# issabel Send Mail When Disk Full
 issabel send Email when disk almost full
