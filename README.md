@@ -13,9 +13,9 @@ chmod 777 diskfullchecker.sh
 3. Open and edit these parameters on `phpmailer.php` 
 ```php
 
-$mail->Username = "decat.router@gmail.com";     // SMTP username
-$mail->Password = "decat102030@";              // SMTP password
+$mail->Username = "your_Gmail_account@gmail.com";     // SMTP username
+$mail->Password = "your_Gmail_password";              // SMTP password
 
-$mail->From = "decat.router@gmail.com";
+$mail->From = "your_Gmail_account@gmail.com";
 
 ```
