@@ -26,3 +26,11 @@ $mail->From = "issabel_Gmail_account@gmail.com";         // SMTP username
 TO=admin_Gmail_account@gmail.com
 
 ```
+5. Create cronjob for check disk periodically
+``` bash script
+
+crontab -e
+0 0 * * * /usr/share/php/diskfullchecker.sh
+crontab -l
+
+```
