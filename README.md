@@ -10,7 +10,7 @@ chmod 777 phpmailer.php
 chmod 777 diskfullchecker.sh
 
 ```
-3. Open and edit below parameters on `phpmailer.php` 
+3. Open and edit these parameters on `phpmailer.php` 
 ```php
 
 $mail->Username = "decat.router@gmail.com";     // SMTP username
