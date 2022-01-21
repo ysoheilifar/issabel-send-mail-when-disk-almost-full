@@ -17,10 +17,10 @@ $mail->Host = "smtp.gmail.com";  // specify main and backup server
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 $mail->SMTPAuth = true;         //turn on SMTP authentication
-$mail->Username = "decat.router@gmail.com";     // SMTP username
-$mail->Password = "decat102030@";   // SMTP password
+$mail->Username = "issabel_Gmail_account@gmail.com";     // SMTP username
+$mail->Password = "issabel_Gmail_password";   // SMTP password
 
-$mail->From = "decat.router@gmail.com";
+$mail->From = "issabel_Gmail_account@gmail.com";
 $mail->FromName = "issabel";
 $mail->AddAddress("$username");
 
