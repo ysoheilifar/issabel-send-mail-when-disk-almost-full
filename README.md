@@ -10,7 +10,7 @@ chmod 777 phpmailer.php
 chmod 777 diskfullchecker.sh
 
 ```
-3. Open and edit these parameters on `phpmailer.php` 
+3. Open and edit these parameters on `phpmailer.php` (set an gmail account for issabel to send email)
 ```php
 
 $mail->Username = "your_Gmail_account@gmail.com";     // SMTP username
@@ -19,3 +19,5 @@ $mail->Password = "your_Gmail_password";              // SMTP password
 $mail->From = "your_Gmail_account@gmail.com";
 
 ```
+
+4. Open 
