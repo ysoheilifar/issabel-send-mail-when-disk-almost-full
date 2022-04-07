@@ -34,3 +34,5 @@ crontab -e
 crontab -l
 
 ```
+
+**Seize the Day** :wink: 
