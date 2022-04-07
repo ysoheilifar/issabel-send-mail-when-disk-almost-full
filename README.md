@@ -35,4 +35,4 @@ crontab -l
 
 ```
 
-<p align=center>**Seize the Day** :wink: </p> 
+<p align=center> **Seize the Day** :wink: </p> 
